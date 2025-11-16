@@ -1,3 +1,4 @@
+# DATE:03/10/25
 # EXPT.NO.09-IMPLEMENTATION-OF-ERROR-DETECTION-USING-CRC-CCITT-16-BIT-TECHNIQUE
 # AIM:
 To write a program for error Detection using Cyclic Redundancy Check (CRC-16 bit) technique.
@@ -12,6 +13,7 @@ To write a program for error Detection using Cyclic Redundancy Check (CRC-16 bit
 5] Give polynomial values and the generated polynomial is obtained, and by other means arraive	at the desired output which uses the error detection technique. 6] Thus the output polynomial is obtained through this technique.
 
 # PROGRAM:
+```
 #include<stdio.h> #include<string.h> #define Nstrlen(g) char t[128],cs[128],g[]="111";
 int a,e,c; voidxor()
 {
@@ -49,9 +51,10 @@ for(e=0;(e<N-1)&&(cs[e]!='1');e++) if(e<N-1)
 printf("Error detected"); else
 printf("no error detected");
 }
- 
+ ```
 # OUTPUT:
 
+![WhatsApp Image 2025-10-22 at 16 03 39_a71a9ea7](https://github.com/user-attachments/assets/f3462996-c3a3-4dca-a24a-b731e91832ba)
 
 # RESULT:
 Thus the error detection using CRC-CCITT[16 bit] technique is implemented and the output is obtained and verified successfully.
